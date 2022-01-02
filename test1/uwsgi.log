@@ -1,0 +1,40 @@
+*** Starting uWSGI 2.0.20 (64bit) on [Sun Nov 28 16:39:28 2021] ***
+compiled with version: 7.5.0 on 28 November 2021 05:54:07
+os: Linux-4.15.0-147-generic #151-Ubuntu SMP Fri Jun 18 19:21:19 UTC 2021
+nodename: nessos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /home/pywork/testasr/test1
+writing pidfile to /home/pywork/testasr/test1/uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/pywork/testasr/test1/
+your processes number limit is 62900
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 172.16.52.252:8083 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.9 (default, Jan 26 2021, 15:33:00)  [GCC 8.4.0]
+Python main interpreter initialized at 0x559f61bae2f0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145808 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+failed to open python file /home/pywork/testasr/test1/wsgi.py
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 19341)
+spawned uWSGI worker 1 (pid: 19342, cores: 1)
+Sun Nov 28 16:41:36 2021 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!

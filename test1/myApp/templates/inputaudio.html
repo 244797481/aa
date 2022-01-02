@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- <title>get请求示例</title>action="/upload"  -->
+</head>
+<body>
+    <form method="POST" enctype="multipart/form-data">
+        {% csrf_token %}
+        <input type="file" name="searchid"><br>
+        <br>
+        
+        <button type="submit">上传</button></form>
+</body>
+</html>
